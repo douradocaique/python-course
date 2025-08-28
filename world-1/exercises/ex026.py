@@ -1,0 +1,6 @@
+phrase = str(input('Enter a phrase: ')).strip()
+phrase = phrase.lower()
+count = phrase.count('a')
+print('Count (a): {}'.format(count))
+print('First Position: {}'.format(phrase.find('a')))
+print('Last Position: {}'.format(phrase.rfind('a')))
