@@ -6,11 +6,11 @@ age = year_now - athlete_year
 
 if(age <= 9):
     print('YOUNG ATHLETE')
-elif(age >= 9 and age <= 14):
+elif(age <= 14):
     print('CHILDREN ATHLETE')
-elif(age > 14 and age <= 19):
+elif(age <= 19):
     print('JUNIOR ATHLETE')
-elif(age > 19 and age <= 20):
+elif(age <= 25):
     print('SENIOR ATHLETE')
 else:
     print('MASTER ATHLETE')
